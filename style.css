@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.upper{
+    height: 10%;
+    display: flex;
+}
+
+.roboat-logo{
+    width: 10%;
+    background-color: #ec6b41;
+    background-color: #F05522;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.roboat-logo p{
+    color: white;
+    font-size: 31px;
+}
+
+.navigations{
+    width: 100%;
+    height: 100%;
+    background-color: #27363B;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+
+.nav-titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-titles p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #A9AFB1;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+
+
+.share-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.share-button p{
+    color: #567079;
+}
+
+.lower{
+    height: 90%;
+}
